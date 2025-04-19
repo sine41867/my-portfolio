@@ -5,19 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sineth Sandaruwan | Software Engineer</title>
   
+  <link rel="stylesheet" href="Content/Plugins/bootstrap/CSS/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="src/styles.css">
-  <link rel="icon" type="image/x-icon" href="src/logo.jpg">
+  <link rel="stylesheet" href="Content/Fonts/Poppins.css">
+  <link rel="stylesheet" href="Content/Fonts/Ubuntu.css">
+
+  <!-- <link rel="stylesheet" href="Content/Plugins/fontawesome/css/font-awesome.min.css"> -->
+  <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'> -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+
+  <link rel="stylesheet" href="Content/CSS/common.css">
+  <link rel="icon" type="image/x-icon" href="Content/Images/logo.jpg">
+
 
   
 </head>
 <body>
 
   <!--Nav Bar-->
-  <section class="px-5 mt-4">
+  <section class="px-lg-3 mt-md-4 mt-2">
     
     <nav class="navbar navbar-expand-lg rounded" >
       <div class="container-fluid">
@@ -51,20 +58,20 @@
 
 
   <!--Home-->
-  <section class="px-2 py-5 mt-5 mb-5 home-section" id="home">
+  <section class="px-md-2 px-1 py-5 mt-md-5 mt-2 mb-1 mb-md-4 home-section" id="home">
     <div class="container">
       <div class="text-center">
         <p class="h1 fw-bold">Web Developer, Python Developer<br>&<br>WPF Developer</p>
         <p class="mt-3">"I create elegant and intuitive designs, and I am passionate about bringing them to life through code."</p>
-        <img src="src/logo.jpg" alt="me" class="img-fluid rounded-circle mt-3" width="200">
+        <img src="Content/Images/logo.jpg" alt="me" class="img-fluid rounded-circle mt-3" width="200">
       </div>
     </div>
   </section>
 
   <!--About-->
-  <section class="mt-5 mb-0 py-5 about-me" id="about-me">
+  <section class="mt-md-5 mt-1 mb-0 py-5 about-me" id="about-me">
     <div class="container-fluid justify-content-center about-me">
-      <div class="col-6">
+      <div class="col-md-8 col-10'">
         <p class="h2  fw-bold text-center">About me</p>
         <p class="px-2 mx-2 mt-4 ">I'm a university undergraduate and freelance software developer with expertise in WordPress, Web Development, Desktop Application Development and Python Development. I am passionate about designing and coding beautifully simple solutions to complex problems. With a strong foundation in software development and a commitment to excellence, I strive to deliver high-quality, intuitive, and efficient applications that meet and exceed client expectations. I love what I do, and I am always eager to take on new challenges and continue growing in this ever-evolving field.</p>
       </div>
@@ -74,11 +81,11 @@
   </section>
   
   <!--Services-->
-  <section class="my-0 bg-grey py-5 " id="services">
-    <div class="container py-5">
+  <section class="my-0 bg-grey pt-md-3 pt-1 pb-1" id="services">
+    <div class="container py-md-3 py-1">
       <p class="h2 fw-bold text-center">Services</p>
-      <div class="row justify-content-center mt-5">
-        <div class="col-3">
+      <div class="row justify-content-center mt-5 gap-5">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
           <div class="card-services py-4" >
             <div class="rounded-circle text-center">
               <i class="fa fa-wordpress fa-3x bg-secondary  rounded-circle p-3 "  style="--bs-bg-opacity: .2;" aria-hidden="true"></i>
@@ -90,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
           <div class="card-services py-4" >
             <div class="rounded-circle text-center">
               <i class="fa fa-css3 fa-3x bg-secondary  rounded-circle p-3 "  style="--bs-bg-opacity: .2;" aria-hidden="true"></i>
@@ -102,7 +109,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
           <div class="card-services py-4 " >
             <div class="rounded-circle text-center">
               <i class="fa fa-code fa-3x bg-secondary  rounded-circle p-3 "  style="--bs-bg-opacity: .2;" aria-hidden="true"></i>
@@ -114,7 +121,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
           <div class="card-services py-4" >
             <div class="rounded-circle text-center">
               <i class="fa fa-wpforms fa-3x bg-secondary  rounded-circle p-3 "  style="--bs-bg-opacity: .2;" aria-hidden="true"></i>
@@ -130,9 +137,9 @@
   </section>
 
  <!--Call me-->
- <section class="call-me" id="call-me">
+ <section class="call-me py-5" id="call-me">
   <div class="container d-flex justify-content-center">
-    <div class="cta-card col-9">
+    <div class="cta-card col-10 col-md-10">
       <h3>Interested in collaborating with me?</h3>
       <p>I’m always open to discussing product design work or partnership opportunities.</p>
       <a href="#contact" class="btn btn-primary">Get Started</a>
@@ -140,47 +147,47 @@
   </div> 
 </section>
   <!--Projects-->
-  <section class=" bg-grey py-5" id="projects">
+  <section class=" bg-grey py-md-3 py-1" id="projects">
     <div class="container">
       <p class="h2 fw-bold text-center">Projects</p>
-      <div class="row justify-content-center  mt-5">
-        <div class="card col-3">
-          <img src="src/project_1.png" alt="Background Image">
+      <div class="row justify-content-center gap-4  mt-4">
+        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
+          <img src="Content/Images/project_1.png" alt="Background Image">
           <div class="card-overlay">
             <h5 class="card-title">Card Title</h5>
             <p class="card-description">This is a description that appears on hover.</p>
           </div>
         </div>
-        <div class="card col-3">
-          <img src="src/project_2.png" alt="Background Image">
+        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
+          <img src="Content/Images/project_2.png" alt="Background Image">
           <div class="card-overlay">
             <h5 class="card-title">Card Title</h5>
             <p class="card-description">This is a description that appears on hover.</p>
           </div>
         </div>
-        <div class="card col-3">
-          <img src="src/project_3.png" alt="Background Image">
+        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
+          <img src="Content/Images/project_3.png" alt="Background Image">
           <div class="card-overlay">
             <h5 class="card-title">Card Title</h5>
             <p class="card-description">This is a description that appears on hover.</p>
           </div>
         </div>
-        <div class="card col-3">
-          <img src="src/project_4.png" alt="Background Image">
+        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
+          <img src="Content/Images/project_4.png" alt="Background Image">
           <div class="card-overlay">
             <h5 class="card-title">Card Title</h5>
             <p class="card-description">This is a description that appears on hover.</p>
           </div>
         </div>
-        <div class="card col-3">
-          <img src="src/project_5.png" alt="Background Image">
+        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
+          <img src="Content/Images/project_5.png" alt="Background Image">
           <div class="card-overlay">
             <h5 class="card-title">Card Title</h5>
             <p class="card-description">This is a description that appears on hover.</p>
           </div>
         </div>
-        <div class="card col-3">
-          <img src="src/project_6.png" alt="Background Image">
+        <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-8 col-10">
+          <img src="Content/Images/project_6.png" alt="Background Image">
           <div class="card-overlay">
             <h5 class="card-title">Card Title</h5>
             <p class="card-description">This is a description that appears on hover.</p>
@@ -198,22 +205,22 @@
  
 
   <!--Contact-->
-  <section class="pt-5 pb-5 bg-grey " id="contact">
+  <section class="pt-sm-5 pt-3 pb-sm-5 pb-3 bg-grey " id="contact">
     <div class="container">
       <p class="h2 fw-bold text-center">Get in Touch</p>
       <div class="row justify-content-center mt-5">
         
-        <a class="card-contact col-3" href="https://wa.me/94716800522?" target="_blank">
+        <a class="card-contact col-lg-3 col-md-4 col-sm-6 col-8" href="https://wa.me/94716800522?" target="_blank">
           <i class="fa fa-whatsapp" aria-hidden="true"></i>
             <p>+94 71 6 800 522</p>
         </a>
 
-        <a class="card-contact col-3" href="mailto:sine41867@gmai.com?subject=Contacting via Portfolio" target="_blank" >
+        <a class="card-contact col-lg-3 col-md-4 col-sm-6 col-8" href="mailto:sine41867@gmai.com?subject=Contacting via Portfolio" target="_blank" >
           <i class="fa fa-envelope" aria-hidden="true"></i>
             <p>sine41867@gmail.com</p>
         </a>
 
-        <a class="card-contact col-3" href="tel:+94716800522">
+        <a class="card-contact col-lg-3 col-md-4 col-sm-6 col-8" href="tel:+94716800522">
           <i class="fa fa-phone" aria-hidden="true"></i>
             <p>+94 71 6 800 522</p>
         </a>
@@ -282,7 +289,7 @@
 
       <div class="container">
         <div class="footer-nav">
-          <ul class="navbar-nav col-lg-12 justify-content-lg-center">
+          <ul class="navbar-nav justify-content-lg-center d-sm-flex d-none">
             <li class="nav-item">
               <a class="nav-link" href="#about-me">About me</a>
             </li>
@@ -305,12 +312,9 @@
       <p class="h6 mt-4">Handcrafted by me 2024</p>
     </div>
   </footer>
-    
-
-
       
+  <script src="Content/Plugins/bootstrap/JS/bootstrap.bundle.min.js"></script>
 
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
